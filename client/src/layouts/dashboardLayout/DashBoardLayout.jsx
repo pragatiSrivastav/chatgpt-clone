@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from 'react-router-dom'
 import './dashBoardLayout.css'
 import {useAuth} from "@clerk/clerk-react"
 import { useEffect } from 'react'
-import ChatList from '../../components/ChatList'
+import ChatList from '../../components/chatList/ChatList'
 
 const DashBoardLayout = () => {
 
